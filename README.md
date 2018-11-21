@@ -1,18 +1,18 @@
-#1: Introduction Sequence
+# 1: Introduction Sequence
     
     ## Git Commits
      git commit
 
-    ##Git Branches
+    ## Git Branches
     git checkout -b bugFix
 
-    ##Branches and Merging
+    ## Branches and Merging
     git checkout -b bugFix
     git commit
     git checkout master
     git merge
 
-    ##Git Rebase
+    ## Git Rebase
     git checkout -b bugFix
     git commit
     git checkout master
@@ -23,8 +23,8 @@
 
 - - - - - - - -
 
-#2 Ramping Up
+# 2 Ramping Up
 
-    ##HEAD
+    ## HEAD
     HEAD always points to the most recent commit which is reflected in the working tree. 
     git checkout C4^
