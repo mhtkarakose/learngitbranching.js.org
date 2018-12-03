@@ -42,12 +42,20 @@
 
 - - - - - - - -
 
-#2 Moving Work Around
+#3 Moving Work Around
 
     ## Cherry-pick Intro
     git cherry-pick <Commit1> <Commit2> <...>
     git cherry-pick C3 C4 C7
     
     Git cherry-pick is great when you know which commits you want (and you know their corresponding hashes)
+    
+    ## git rebase -i HEAD~4
 
+- - - - - - - -
+
+#4 A Mixed Bag
+
+    ##git rebase -i
+    git cherry-pick
 
