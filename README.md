@@ -56,6 +56,10 @@
 
 #4 A Mixed Bag
 
-    ##git rebase -i
-    git cherry-pick
+    ## 1: Grabbing Just 1 Commit
+    git rebase -i HEAD~3
+    git checkout master
+    git cherry-pick C4
+    
+    ## 2: Juggling Commits
 
